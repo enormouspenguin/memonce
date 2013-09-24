@@ -1,0 +1,21 @@
+{
+    "name": "memonce",
+    "version": "0.0.0",
+    "description": "Create async function wrapper that ensure wrapped function is only excecuted once and memorize execution result to pass to subsequence invocation",
+    "main": "index.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "chai":"~1.8.0",
+        "tap": "~0.4.4"
+    },
+    "engines" : {
+        "node" : "~0.10.12",
+        "npm" : "~1.2.32"
+    },
+    "author": "KimKhanh",
+    "license": "Private"
+}

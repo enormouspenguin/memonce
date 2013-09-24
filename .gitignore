@@ -1,0 +1,5 @@
+*.komodoproject
+.idea/
+.komodotools/
+references/
+node_modules/
