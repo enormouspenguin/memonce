@@ -1,6 +1,6 @@
 {
     "name": "memonce",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Create async function wrapper that ensure wrapped function is only excecuted once and memorize execution result to pass to subsequence invocation",
     "main": "index.js",
     "keywords":["memonce", "once", "memoize", "function", "wrapper", "async", "throw", "return", "cache"],
