@@ -3,8 +3,13 @@
     "version": "0.0.0",
     "description": "Create async function wrapper that ensure wrapped function is only excecuted once and memorize execution result to pass to subsequence invocation",
     "main": "index.js",
+    "keywords":["memonce", "once", "memoize", "function", "wrapper", "async", "throw", "return", "cache"],
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/kimkhanh/memonce.git"
+    },
     "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "tap ./test"
     },
     "dependencies": {
     },
@@ -17,5 +22,5 @@
         "npm" : "~1.2.32"
     },
     "author": "KimKhanh",
-    "license": "Private"
+    "license": "MIT"
 }
